@@ -9,7 +9,9 @@
     <projectUrl>https://github.com/BaristaLabs/BaristaCore</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
-    <description>This package includes the Microsoft ChakraCore native library in support of BaristaCore.</description>
+    <description>This package includes the Microsoft ChakraCore native libraries in support of BaristaCore.
+	This package bundles ChakraCore for Win x64, Linux x64 and macOS x64.
+	</description>
     <releaseNotes>https://github.com/BaristaLabs/BaristaCore/blob/master/README.md#roadmap</releaseNotes>
     <copyright>Copyright (c) 2017 BaristaLabs, LLC</copyright>
     <language>en-US</language>
