@@ -9,7 +9,7 @@ https://www.nuget.org/packages?q=baristalabs.baristacore.chakracore
 
 Current
 -----
-Releases are from the official ChakraCore releases, but renamed align with what a .Net Core app can pick up in a x-plat manner via a DllImport attribute with a minimum of hassle.
+Releases are from the official ChakraCore releases, but renamed to align with what a .Net Core app can pick up in a x-plat manner via a DllImport attribute with a minimum of hassle.
 
 https://github.com/Microsoft/ChakraCore/releases
 
