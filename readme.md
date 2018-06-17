@@ -1,7 +1,7 @@
 BaristaCore-ChakraCore
 -----
 
-Contains pre-built ChakraCore libraries for macOS, Ubuntu and Windows and nuspecs to publish them to NuGet for consumption in BaristaCore projects
+Contains pre-built ChakraCore libraries for macOS, Linux and Windows and nuspecs to publish them to NuGet for consumption in BaristaCore projects
 
 Available on nuget here:
 https://www.nuget.org/packages?q=baristalabs.baristacore.chakracore
@@ -9,15 +9,12 @@ https://www.nuget.org/packages?q=baristalabs.baristacore.chakracore
 
 Current
 -----
-chakracore.dll - Windows 10, x64, Release - 1.7.5
-libChakraCore.dylib - macOS Sierra, amd64, Release - 1.7.5
-libChakraCore.so - Ubuntu 16.04.1, amd64, Release - 1.7.5
+Releases are from the official ChakraCore releases, but renamed to align with what a .Net Core app can pick up in a x-plat manner via a DllImport attribute with a minimum of hassle.
+
+https://github.com/Microsoft/ChakraCore/releases
 
 
-These pre-build binaries are only included for convenience as ChakraCore is a relatively big build and these cover the majority of platforms.
-
-For other platforms, build [ChakraCore](https://github.com/microsoft/chakracore/) yourself and overwrite the dynamic libary for the target platform in the output folder.
-
+For other platforms or custom builds, build [ChakraCore](https://github.com/microsoft/chakracore/) yourself and overwrite the dynamic libary for the target platform in the output folder.
 
 Windows Build:
 
