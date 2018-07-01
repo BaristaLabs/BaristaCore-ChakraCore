@@ -6,6 +6,7 @@ Contains pre-built ChakraCore libraries for macOS, Linux and Windows and nuspecs
 Available on nuget here:
 https://www.nuget.org/packages?q=baristalabs.baristacore.chakracore
 
+> 6/30/2018 Updated with ChakraCore Release 1.10.0
 
 Current
 -----
